@@ -6,9 +6,17 @@
         while (True) {
             yield;
             if (GUIPlayer != Null && GUIPlayer == InputPlayer) {
-                if (GUIPlayer.GravityCoef != .166) {
+                if (GUIPlayer.AccelCoef != 2.3) {
                     log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
-                    GUIPlayer.GravityCoef = .166;
+                    GUIPlayer.AccelCoef = 2.3;
+                }
+                if (GUIPlayer.ControlCoef != 2.0) {
+                    log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
+                    GUIPlayer.ControlCoef = 2.0;
+                }
+                if (GUIPlayer.AdherenceCoef != 0.0) {
+                    log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
+                    GUIPlayer.AdherenceCoef = 0.0;
                 }
             }
         }
