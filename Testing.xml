@@ -1,0 +1,18 @@
+<manialink version="3">
+<script>
+<!-- 
+    main() {
+        log("Init MoonGravity Manialink");
+        while (True) {
+            yield;
+            if (GUIPlayer != Null && GUIPlayer == InputPlayer) {
+                if (GUIPlayer.GravityCoef != .166) {
+                    log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
+                    GUIPlayer.GravityCoef = .166;
+                }
+            }
+        }
+    }
+     -->
+</script>
+</manialink>
