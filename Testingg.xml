@@ -1,0 +1,29 @@
+<manialink version="3">
+<script>
+<!-- 
+    main() {
+        log("Init MoonGravity Manialink");
+        declare Real Accel = 5.0;
+        declare Real Control = 5.0;
+        declare Real Adherence = 5.0;
+        while (True) {
+            yield;
+            if (GUIPlayer != Null && GUIPlayer == InputPlayer) {
+                if (GUIPlayer.AccelCoef != Accel) {
+                    log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
+                    GUIPlayer.AccelCoef = Accel;
+                }
+                if (GUIPlayer.ControlCoef != Control) {
+                    log("Changing the Control for the player " ^ GUIPlayer.User.Name);
+                    GUIPlayer.ControlCoef = Control;
+                }
+                if (GUIPlayer.AdherenceCoef != Adherence) {
+                    log("Changing the Adherence for the player " ^ GUIPlayer.User.Name);
+                    GUIPlayer.AdherenceCoef = Adherence;
+                }
+            }
+        }
+    }
+     -->
+</script>
+</manialink>
