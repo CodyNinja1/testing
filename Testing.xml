@@ -18,9 +18,9 @@
                     log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
                     GUIPlayer.AdherenceCoef = 2.0;
                 }
-                if (GUIPlayer.GravityCoef != 10.0) {
+                if (GUIPlayer.GravityCoef != 2.0) {
                     log("Changing the Gravity for the player " ^ GUIPlayer.User.Name);
-                    GUIPlayer.GravityCoef = 10.0;
+                    GUIPlayer.GravityCoef = 2.0;
                 }
             }
         }
