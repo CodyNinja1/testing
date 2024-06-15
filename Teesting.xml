@@ -4,8 +4,8 @@
     main() {
         log("Init MoonGravity Manialink");
         declare Real Accel = 5.0;
-        declare Real Control = 5.0;
-        declare Real Adherence = 5.0;
+        declare Real Control = 10.0;
+        declare Real Adherence = 0.3;
         while (True) {
             yield;
             if (GUIPlayer != Null && GUIPlayer == InputPlayer) {
