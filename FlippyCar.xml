@@ -2,7 +2,7 @@
 <script>
 <!-- 
     main() {
-        log("Init MoonGravity Manialink");
+        log("Init FlippyCar Manialink");
         declare Real Accel = 0.1;
         declare Real Control = -100.0;
         declare Real Adherence = 1.0;
