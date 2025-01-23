@@ -3,8 +3,8 @@
 <!-- 
     main() {
         log("Init MoonGravity Manialink");
-        declare Real Accel = 100.0;
-        declare Real Control = 100.0;
+        declare Real Accel = 0.1;
+        declare Real Control = -100.0;
         declare Real Adherence = 1.0;
         declare Real Gravity = 1.0;
         while (True) {
